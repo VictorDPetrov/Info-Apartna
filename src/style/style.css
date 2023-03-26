@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+body, html {
+    font-family: "Montserrat", sans-serif;
+    color: #4c5e6f;
+    /* background-color: #24252A; */
+    margin: 0;
+    height: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#mainPage {
+    text-align: center;
+}
+
+/* First Div */
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(35deg, #e0dcce00, #56815265, #4fb64565, #41bb3665);
+    background-size: 600% 100%;
+    animation: gradient 7s linear infinite;
+    animation-direction: alternate;
+    display: block;
+    overflow: auto;
+}
+
+
+@keyframes gradient {
+    0% { background-position: 0% }
+    100% { background-position: 100% }
+}
+
+/* Navigation */
+.nav__links li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #43646f;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: default;
+    margin-right: auto;
+    width: 500px;
+    color: #4c5e6f;
+}
+
+.logo span {
+    color: rgba(121, 182, 214, 0.782);
+    transition: all 1s ease 0s;
+
+}
+
+.logo span:hover {
+    color: #4c5e6f;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0000005d;
+}
+
+button {
+    padding: 9px 25px;
+    /* background-color: rgba(0, 136, 169, 1); */
+    background-color: rgba(121, 182, 214, 0.782);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta button:hover {
+    background-color: #4c5e6f;
+    color: white;
+}
+
+#helloTxt {
+    margin-top: 20px;
+    font-size: 40px;
+    height: 39vh;
+}
+
+#helloTxt span {
+    color: rgba(121, 182, 214, 0.782);
+    transition: all 0.5s ease 0s;
+}
+
+#helloTxt span:hover {
+    color: #4c5e6f;
+}
+
+.typed-out {
+    font-size: 30px;
+}
+
+#copyright {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+}
+
+div {
+    display: block;
+}
+
+li {
+    display: list-item;
+    list-style-position: inside;
+}
+
+img {
+    margin: auto;
+    border: 1px groove;
+    border-radius: 2%;
+}
+
+.onHover {
+    color: rgba(121, 182, 214, 0.782);
+    transition: all 0.5s ease 0s;
+}
+
+.onHover:hover {
+    color: #4c5e6f;
+}
