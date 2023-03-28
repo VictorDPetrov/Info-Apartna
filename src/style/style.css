@@ -196,3 +196,7 @@ button {
     font-size: 23px;
     text-decoration: underline;
 }
+
+.apartnaInfoTxt {
+    margin-top: -100px;   
+}
