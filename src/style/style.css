@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
+/* Resolution: 1920x1080 */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -90,7 +92,6 @@ button {
     text-decoration: none;
 }
 
-
 .logo {
     cursor: default;
     margin-right: auto;
@@ -157,7 +158,6 @@ button {
 }
 
 .container {
-    border: 1px solid black;
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
@@ -165,9 +165,12 @@ button {
 
 .child {
     display: inline-block;
-    border: 1px solid red;
     padding: 1rem 1rem;
     vertical-align: middle;
+}
+
+.apartnaPayments {
+    margin-top: -200px;
 }
 
 .loginPage {
@@ -182,21 +185,32 @@ button {
 }
 
 .imgLinkDiv {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.imgLinks {
+    position: absolute;
     font-size: 50px;
-    justify-content: center;
-    align-items: center;
+    margin-left: -200px;
+    margin-top: -270px;
 }
 
 .imgLinks li a {
     font-size: 23px;
     text-decoration: underline;
+    transition: all .2s ease-in-out;
+}
+
+.imgLinkDiv .imgLinks li a:hover {
+    color: #0000005d;
+    transition: all .2s ease-in-out;
 }
 
 .apartnaInfoTxt {
     margin-top: -100px;   
+}
+
+.loginPageParent {
+    margin-top: -50px;
+}
+
+#textInfo {
+    font-size: 30px;
+    margin-top: -200px;
 }
