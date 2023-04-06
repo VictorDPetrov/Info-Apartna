@@ -186,6 +186,13 @@ button {
 
 .loginPage img {
     margin-top: 20px;
+    width: 1400px;
+    height: auto;
+}
+
+img {
+    width: 1400px;
+    height: auto;
 }
 
 .imgLinkDiv {
